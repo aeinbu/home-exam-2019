@@ -7,10 +7,11 @@ make
 
 Run server with chosen portnumber (6000)
 ```shell
-.\bin\server 6000
+./bin/server 6000
 ```
 
 Run client, and specify server (localhost) and port (6000) to connect to
-```shell
-.\bin\client localhost 6000
+```
+telnet localhost 6000
+http://localhost:6000/
 ```

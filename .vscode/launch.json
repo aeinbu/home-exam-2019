@@ -10,12 +10,13 @@
 			"request": "launch",
 			"program": "${workspaceFolder}/bin/server",
 			"args": [
-				"6000"
+				"8080"
 			],
 			"stopAtEntry": false,
 			"cwd": "${workspaceFolder}",
 			"environment": [],
 			"externalConsole": true,
+			"internalConsoleOptions": "openOnFirstSessionStart",
 			"MIMode": "lldb"
 		}
 
